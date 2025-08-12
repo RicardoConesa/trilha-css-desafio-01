@@ -1,0 +1,172 @@
+/* ======== Reset e Configuração Global ======== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0d0d0d;
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+/* ======== Banner ======== */
+.banner {
+  background: linear-gradient(135deg, #0a0a0a 40%, #1a1a40 100%);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.banner-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.banner .logo img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  color: #00e676;
+  margin-bottom: 15px;
+}
+
+.banner p {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 25px;
+}
+
+.banner button {
+  background-color: #00e676;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  color: #0d0d0d;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.banner button:hover {
+  background-color: #00c853;
+  transform: scale(1.05);
+}
+
+/* ======== Conteúdo do Curso ======== */
+#course-content {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+#course-content h2 {
+  color: #00e676;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+#course-content p {
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.modules-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.module {
+  background-color: #1a1a1a;
+  padding: 15px;
+  border-left: 4px solid #00e676;
+  border-radius: 6px;
+  font-size: 1.1rem;
+}
+
+.module span {
+  font-weight: bold;
+  color: #00e676;
+}
+
+/* ======== Transform World ======== */
+#transform-world {
+  background: url('assets/images/background-transform.jpg') center/cover no-repeat;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+#transform-world p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+/* ======== Desafios Profissionais ======== */
+#professional-challenges {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+#professional-challenges h2 {
+  color: #00e676;
+  margin-bottom: 20px;
+}
+
+#professional-challenges img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#professional-challenges p {
+  color: #ccc;
+}
+
+/* ======== Rodapé ======== */
+footer {
+  background-color: #1a1a1a;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+footer .dio-logo {
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+footer a {
+  color: #00e676;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ======== Responsividade ======== */
+@media (max-width: 768px) {
+  .banner h1 {
+    font-size: 2rem;
+  }
+
+  #transform-world p {
+    font-size: 1.5rem;
+  }
+}
